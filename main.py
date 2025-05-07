@@ -16,4 +16,3 @@ app.include_router(auth.router)  # 📌 Authentikációs végpont hozzáadása
 @app.get("/")  # Alapértelmezett végpont
 def home():
     return {"message": "RenoMate API is running! Authentication removed."}
-
