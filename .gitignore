@@ -1,0 +1,28 @@
+# Python bytecode fájlok
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Virtuális környezet
+venv/
+.venv/
+
+# Környezeti változók
+.env
+
+# Teszt fájlok, build output (ha használsz ilyet)
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter notebook checkpointok (ha használsz Jupyter-t)
+.ipynb_checkpoints/
+
+# VS Code beállítások (ha személyesek, gépfüggők)
+.vscode/
+
+# Mac és Windows rejtett fájlok
+.DS_Store
+Thumbs.db
